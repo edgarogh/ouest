@@ -1,0 +1,11 @@
+[package]
+name = "ouest"
+version = "0.1.0"
+authors = ["Edgar Onghena <46636609+edgarogh@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+rocket = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.5"
